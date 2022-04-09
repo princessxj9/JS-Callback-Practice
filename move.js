@@ -59,7 +59,7 @@ function moveWithArrowKeys(left, bottom, callBack){
   //event listener to stop the character when the user releases a key//
     document.addEventListener('keyup', function(e){
         direction = null
-        callBack()
+        callBack(direction)
     })
     
 }
