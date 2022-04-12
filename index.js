@@ -27,7 +27,7 @@ function handleDirectionChange(direction){
 
 
 
-move(newImage('assets/tree.png')).to(200, 450));
+move(newImage('assets/tree.png')).to(200, 450);;
 move(newImage('assets/pillar.png')).to(350, 250);
 move(newImage('assets/pine-tree.png')).to(450, 350);
 move(newImage('assets/crate.png')).to(150, 350);
